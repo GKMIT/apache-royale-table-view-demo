@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<j:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+                xmlns:js="library://ns.apache.org/royale/express"
+                xmlns:j="library://ns.apache.org/royale/jewel"              
+                xmlns:html="library://ns.apache.org/royale/html"
+                xmlns:s="library://ns.adobe.com/royale/spark" 
+				xmlns:mx="library://ns.adobe.com/royale/mx">
+   
+
+    <j:initialView>
+        <j:View>
+            <j:beads>
+                <j:VerticalLayout gap="10"/>
+            </j:beads>
+           
+            <html:H3 text="Demo Table"/>
+   
+            <html:Table style="width:100%; border: 1px #333 solid;">
+                <html:Tr>
+                    <html:Td>
+                    Name
+                    </html:Td>
+                    <html:Td>
+                    Email
+                    </html:Td>
+                    <html:Td>
+                    Contact
+                    </html:Td>
+                </html:Tr>
+                <html:Tr>
+                    <html:Td>
+                    Test 1
+                    </html:Td>
+                    <html:Td>
+                    test1@gmail.com
+                    </html:Td>
+                    <html:Td>
+                    1234567890
+                    </html:Td>
+                </html:Tr>
+
+                <html:Tr>
+                    <html:Td>
+                    Test 2
+                    </html:Td>
+                    <html:Td>
+                    test2@gmail.com
+                    </html:Td>
+                    <html:Td>
+                    1234567890
+                    </html:Td>
+                </html:Tr>
+                
+                <html:Tr>
+                    <html:Td>
+                    Test 3
+                    </html:Td>
+                    <html:Td>
+                    test3@gmail.com
+                    </html:Td>
+                    <html:Td>
+                    1234567890
+                    </html:Td>
+                </html:Tr>
+
+                <html:Tr>
+                    <html:Td>
+                    Test 4
+                    </html:Td>
+                    <html:Td>
+                    test4@gmail.com
+                    </html:Td>
+                    <html:Td>
+                    1234567890
+                    </html:Td>
+                </html:Tr>
+            </html:Table>
+            
+        </j:View>
+    </j:initialView>
+
+</j:Application>
